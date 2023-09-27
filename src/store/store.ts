@@ -66,7 +66,7 @@ export const useRyMstate = create<RyMstate>((set) => ({
     gender: "",
     id: 0,
     image: "",
-    location: { name: "", url: ""},
+    location: { name: "", url: "" },
     name: "",
     origin: { name: "", url: "" },
     species: "",
