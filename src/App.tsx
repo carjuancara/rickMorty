@@ -1,7 +1,15 @@
+//import Card from './components/card/Card.tsx';
+import Cards from './components/cards/Cards.tsx';
+import Footer from './components/footer/Footer.tsx';
+import Navbar from './components/navbar/Navbar.tsx';
+
+
 function App() {
   return (
     <>
-      <span className='bg-blue-500'>Rick & Morty</span>
+      <Navbar />
+      <Cards />
+      <Footer />
     </>
   )
 }
